@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		040107B81ED28262000457FD /* AgeValidationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040107B71ED28262000457FD /* AgeValidationVC.swift */; };
+		040107BE1ED284D3000457FD /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 040107BB1ED284D3000457FD /* TPKeyboardAvoidingScrollView.m */; };
+		040107BF1ED284D3000457FD /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 040107BD1ED284D3000457FD /* UIScrollView+TPKeyboardAvoidingAdditions.m */; };
 		04C7672B1ED1644D00A23E54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C7672A1ED1644D00A23E54 /* AppDelegate.swift */; };
 		04C7672D1ED1644D00A23E54 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C7672C1ED1644D00A23E54 /* ViewController.swift */; };
 		04C767301ED1644D00A23E54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C7672E1ED1644D00A23E54 /* Main.storyboard */; };
@@ -14,6 +17,10 @@
 		04C767351ED1644D00A23E54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C767331ED1644D00A23E54 /* LaunchScreen.storyboard */; };
 		04C767401ED1644D00A23E54 /* TapCashBackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C7673F1ED1644D00A23E54 /* TapCashBackTests.swift */; };
 		04C7674B1ED1644D00A23E54 /* TapCashBackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C7674A1ED1644D00A23E54 /* TapCashBackUITests.swift */; };
+		04C767591ED168B000A23E54 /* pexels-photo-28452.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04C767581ED168B000A23E54 /* pexels-photo-28452.jpg */; };
+		04C7675D1ED16D4900A23E54 /* GetLocationAreaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C7675C1ED16D4900A23E54 /* GetLocationAreaVC.swift */; };
+		04D6E24E1ED1EB1E00CA34E6 /* GetEmailForNotificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D6E24D1ED1EB1E00CA34E6 /* GetEmailForNotificationVC.swift */; };
+		04D6E2501ED1F97B00CA34E6 /* SigningUPVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D6E24F1ED1F97A00CA34E6 /* SigningUPVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		040107B71ED28262000457FD /* AgeValidationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgeValidationVC.swift; sourceTree = "<group>"; };
+		040107B91ED284CC000457FD /* TapCashBack-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TapCashBack-Bridging-Header.h"; sourceTree = "<group>"; };
+		040107BA1ED284D3000457FD /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
+		040107BB1ED284D3000457FD /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
+		040107BC1ED284D3000457FD /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
+		040107BD1ED284D3000457FD /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = "<group>"; };
 		04C767271ED1644D00A23E54 /* TapCashBack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapCashBack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04C7672A1ED1644D00A23E54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04C7672C1ED1644D00A23E54 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +60,10 @@
 		04C767461ED1644D00A23E54 /* TapCashBackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapCashBackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04C7674A1ED1644D00A23E54 /* TapCashBackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapCashBackUITests.swift; sourceTree = "<group>"; };
 		04C7674C1ED1644D00A23E54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04C767581ED168B000A23E54 /* pexels-photo-28452.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pexels-photo-28452.jpg"; sourceTree = "<group>"; };
+		04C7675C1ED16D4900A23E54 /* GetLocationAreaVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetLocationAreaVC.swift; sourceTree = "<group>"; };
+		04D6E24D1ED1EB1E00CA34E6 /* GetEmailForNotificationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetEmailForNotificationVC.swift; sourceTree = "<group>"; };
+		04D6E24F1ED1F97A00CA34E6 /* SigningUPVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SigningUPVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,13 +91,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		040107C01ED284E6000457FD /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				04C767581ED168B000A23E54 /* pexels-photo-28452.jpg */,
+				040107BA1ED284D3000457FD /* TPKeyboardAvoidingScrollView.h */,
+				040107BB1ED284D3000457FD /* TPKeyboardAvoidingScrollView.m */,
+				040107BC1ED284D3000457FD /* UIScrollView+TPKeyboardAvoidingAdditions.h */,
+				040107BD1ED284D3000457FD /* UIScrollView+TPKeyboardAvoidingAdditions.m */,
+			);
+			name = Lib;
+			sourceTree = "<group>";
+		};
 		04C7671E1ED1644C00A23E54 = {
 			isa = PBXGroup;
 			children = (
+				040107C01ED284E6000457FD /* Lib */,
 				04C767291ED1644D00A23E54 /* TapCashBack */,
 				04C7673E1ED1644D00A23E54 /* TapCashBackTests */,
 				04C767491ED1644D00A23E54 /* TapCashBackUITests */,
 				04C767281ED1644D00A23E54 /* Products */,
+				040107B91ED284CC000457FD /* TapCashBack-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +130,10 @@
 			children = (
 				04C7672A1ED1644D00A23E54 /* AppDelegate.swift */,
 				04C7672C1ED1644D00A23E54 /* ViewController.swift */,
+				04C7675C1ED16D4900A23E54 /* GetLocationAreaVC.swift */,
+				04D6E24D1ED1EB1E00CA34E6 /* GetEmailForNotificationVC.swift */,
+				04D6E24F1ED1F97A00CA34E6 /* SigningUPVC.swift */,
+				040107B71ED28262000457FD /* AgeValidationVC.swift */,
 				04C7672E1ED1644D00A23E54 /* Main.storyboard */,
 				04C767311ED1644D00A23E54 /* Assets.xcassets */,
 				04C767331ED1644D00A23E54 /* LaunchScreen.storyboard */,
@@ -193,6 +228,7 @@
 				TargetAttributes = {
 					04C767261ED1644D00A23E54 = {
 						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					04C7673A1ED1644D00A23E54 = {
@@ -235,6 +271,7 @@
 				04C767351ED1644D00A23E54 /* LaunchScreen.storyboard in Resources */,
 				04C767321ED1644D00A23E54 /* Assets.xcassets in Resources */,
 				04C767301ED1644D00A23E54 /* Main.storyboard in Resources */,
+				04C767591ED168B000A23E54 /* pexels-photo-28452.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +296,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				040107BE1ED284D3000457FD /* TPKeyboardAvoidingScrollView.m in Sources */,
+				04C7675D1ED16D4900A23E54 /* GetLocationAreaVC.swift in Sources */,
+				04D6E2501ED1F97B00CA34E6 /* SigningUPVC.swift in Sources */,
+				04D6E24E1ED1EB1E00CA34E6 /* GetEmailForNotificationVC.swift in Sources */,
+				040107B81ED28262000457FD /* AgeValidationVC.swift in Sources */,
+				040107BF1ED284D3000457FD /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
 				04C7672D1ED1644D00A23E54 /* ViewController.swift in Sources */,
 				04C7672B1ED1644D00A23E54 /* AppDelegate.swift in Sources */,
 			);
@@ -412,10 +455,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = TapCashBack/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dev.deepraj.TapCashBack;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TapCashBack-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -424,10 +470,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = TapCashBack/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dev.deepraj.TapCashBack;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TapCashBack-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -505,6 +553,7 @@
 				04C767511ED1644D00A23E54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04C767521ED1644D00A23E54 /* Build configuration list for PBXNativeTarget "TapCashBackTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +562,7 @@
 				04C767541ED1644D00A23E54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04C767551ED1644D00A23E54 /* Build configuration list for PBXNativeTarget "TapCashBackUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +571,7 @@
 				04C767571ED1644D00A23E54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

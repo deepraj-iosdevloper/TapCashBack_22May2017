@@ -9,17 +9,26 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var btnGetStarted: UIButton!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        //Set started button border width , corner radius and border color
+        self.btnGetStarted.layer.borderWidth = 3
+        self.btnGetStarted.layer.borderColor = UIColor.white.cgColor
+        self.btnGetStarted.layer.cornerRadius = 5
+        
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    //MARK:- Get Started button action
+    @IBAction func getStartedBtnAction(_ sender: Any) {
+        
+        let getLocationView = self.storyboard?.instantiateViewController    (withIdentifier: "GetLocationAreaVC") as! GetLocationAreaVC
+        self.navigationController?.pushViewController(getLocationView, animated: true)
+        
     }
-
 
 }
 
