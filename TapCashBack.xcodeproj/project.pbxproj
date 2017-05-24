@@ -10,6 +10,9 @@
 		040107B81ED28262000457FD /* AgeValidationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040107B71ED28262000457FD /* AgeValidationVC.swift */; };
 		040107BE1ED284D3000457FD /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 040107BB1ED284D3000457FD /* TPKeyboardAvoidingScrollView.m */; };
 		040107BF1ED284D3000457FD /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 040107BD1ED284D3000457FD /* UIScrollView+TPKeyboardAvoidingAdditions.m */; };
+		040169001ED3479400EFD83A /* MainViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040168FF1ED3479400EFD83A /* MainViewViewController.swift */; };
+		04ADF1981ED3AE890082C616 /* branch.png in Resources */ = {isa = PBXBuildFile; fileRef = 04ADF1971ED3AE880082C616 /* branch.png */; };
+		04C702DB1ED32D40001D7C53 /* RegistrationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C702DA1ED32D40001D7C53 /* RegistrationVC.swift */; };
 		04C7672B1ED1644D00A23E54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C7672A1ED1644D00A23E54 /* AppDelegate.swift */; };
 		04C7672D1ED1644D00A23E54 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C7672C1ED1644D00A23E54 /* ViewController.swift */; };
 		04C767301ED1644D00A23E54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C7672E1ED1644D00A23E54 /* Main.storyboard */; };
@@ -47,6 +50,9 @@
 		040107BB1ED284D3000457FD /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
 		040107BC1ED284D3000457FD /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
 		040107BD1ED284D3000457FD /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = "<group>"; };
+		040168FF1ED3479400EFD83A /* MainViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewViewController.swift; sourceTree = "<group>"; };
+		04ADF1971ED3AE880082C616 /* branch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = branch.png; sourceTree = "<group>"; };
+		04C702DA1ED32D40001D7C53 /* RegistrationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationVC.swift; sourceTree = "<group>"; };
 		04C767271ED1644D00A23E54 /* TapCashBack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapCashBack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04C7672A1ED1644D00A23E54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04C7672C1ED1644D00A23E54 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -94,6 +100,7 @@
 		040107C01ED284E6000457FD /* Lib */ = {
 			isa = PBXGroup;
 			children = (
+				04ADF1971ED3AE880082C616 /* branch.png */,
 				04C767581ED168B000A23E54 /* pexels-photo-28452.jpg */,
 				040107BA1ED284D3000457FD /* TPKeyboardAvoidingScrollView.h */,
 				040107BB1ED284D3000457FD /* TPKeyboardAvoidingScrollView.m */,
@@ -134,6 +141,8 @@
 				04D6E24D1ED1EB1E00CA34E6 /* GetEmailForNotificationVC.swift */,
 				04D6E24F1ED1F97A00CA34E6 /* SigningUPVC.swift */,
 				040107B71ED28262000457FD /* AgeValidationVC.swift */,
+				04C702DA1ED32D40001D7C53 /* RegistrationVC.swift */,
+				040168FF1ED3479400EFD83A /* MainViewViewController.swift */,
 				04C7672E1ED1644D00A23E54 /* Main.storyboard */,
 				04C767311ED1644D00A23E54 /* Assets.xcassets */,
 				04C767331ED1644D00A23E54 /* LaunchScreen.storyboard */,
@@ -269,6 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04C767351ED1644D00A23E54 /* LaunchScreen.storyboard in Resources */,
+				04ADF1981ED3AE890082C616 /* branch.png in Resources */,
 				04C767321ED1644D00A23E54 /* Assets.xcassets in Resources */,
 				04C767301ED1644D00A23E54 /* Main.storyboard in Resources */,
 				04C767591ED168B000A23E54 /* pexels-photo-28452.jpg in Resources */,
@@ -300,7 +310,9 @@
 				04C7675D1ED16D4900A23E54 /* GetLocationAreaVC.swift in Sources */,
 				04D6E2501ED1F97B00CA34E6 /* SigningUPVC.swift in Sources */,
 				04D6E24E1ED1EB1E00CA34E6 /* GetEmailForNotificationVC.swift in Sources */,
+				04C702DB1ED32D40001D7C53 /* RegistrationVC.swift in Sources */,
 				040107B81ED28262000457FD /* AgeValidationVC.swift in Sources */,
+				040169001ED3479400EFD83A /* MainViewViewController.swift in Sources */,
 				040107BF1ED284D3000457FD /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
 				04C7672D1ED1644D00A23E54 /* ViewController.swift in Sources */,
 				04C7672B1ED1644D00A23E54 /* AppDelegate.swift in Sources */,

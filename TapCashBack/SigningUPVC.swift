@@ -22,6 +22,12 @@ class SigningUPVC: UIViewController {
   
     }
     
+    @IBAction func ReturnToHomeScreenBtnAction(_ sender: Any) {
+        
+        let mainView = self.storyboard?.instantiateViewController(withIdentifier: "MainViewViewController") as! MainViewViewController
+        self.navigationController?.pushViewController(mainView, animated: true)
+        
+    }
 
 
     

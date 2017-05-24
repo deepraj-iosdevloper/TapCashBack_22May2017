@@ -21,4 +21,9 @@ class AgeValidationVC: UIViewController {
         
         _ = self.navigationController?.popViewController(animated: true)
     }
+    @IBAction func SubmitButtonAction(_ sender: Any) {
+        
+        let register = self.storyboard?.instantiateViewController(withIdentifier: "RegistrationVC") as! RegistrationVC
+        self.navigationController?.pushViewController(register, animated: true)
+    }
 }
